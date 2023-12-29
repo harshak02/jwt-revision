@@ -23,8 +23,10 @@ export const ensureAuthenticated = async (req,res,next) => {
 
 }
 
+//Note we can use the res.render for windows shifting
 
-//Down methos is by using the headers :
+
+//Down method is by using the headers :
 
  // if(!req.headers["authorization"]){
  //     return res.status(401).json({
